@@ -1,0 +1,128 @@
+@media all
+{
+  .page-break  { display:none; }
+
+  body{
+  	width: 80%;
+  	margin: 0 auto;
+  }
+}
+
+@media print
+{
+  .page-break  { display:block; page-break-before:always; }
+  .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+  body{
+  	width: 90%;
+  	margin: 0 auto;
+  }
+
+
+}
+
+
+
+body{ 
+	background-color: white;
+	color: #666;
+	font-family: Ubuntu;
+	font-size: 13px;
+	margin-bottom: 30px;
+
+}
+
+a{
+	color: #666;
+	text-decoration: none;
+}
+
+.wraper{
+	position: relative;
+	margin: 0 auto;
+}
+	
+.header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #336;
+}
+.header .sub{
+	font-size: 13px;
+	color: gray;	
+	font-weight: normal;
+}
+.header .sub a{
+	font-size: 13px;
+	color: gray;	
+}
+ 
+.category{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #336;
+}
+.text{
+	margin-left: 70px;
+	font-weight: normal;
+}
+
+.text #line1 {
+	padding-top: 5px;
+	font-weight: bold;
+	display: block;
+}
+.text #line2 {
+	font-style: italic; 
+	display: block;
+}
+.text ul{
+	margin-top: 2px;
+	margin-bottom: 2px;	
+}
+.text li{
+	padding-left: 2px;	
+}
+#highlight{
+	text-shadow: 1px 1px 7px #336;	
+}
+
+.skills{
+	margin-left: 70px;
+	line-height: 1.5em;
+}
+
+.fa{
+	color: #030354;
+}
+span.labs{
+	padding: 0px 4px;
+	margin: 1px;
+}
+.skills .lst{
+	-webkit-print-color-adjust:exact;
+	border: 1px;
+	border-color: gray;
+	padding: 1px 4px;
+	margin: 2px;
+	background-color: #E6E6E6;
+	border-radius: 15px;
+}
+
+.mark{
+	-webkit-print-color-adjust:exact;
+	border: 1px;
+	border-color: #ededed;
+	padding: 0px 4px;
+	margin: 0.5px;
+	background-color: #ededed;
+	border-radius: 15px;
+}
+
